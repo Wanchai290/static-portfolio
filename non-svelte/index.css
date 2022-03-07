@@ -1,6 +1,6 @@
 /* Color palette */
 /* CSS HEX */
-body {
+:root {
     --middle-blue: #87d5e8ff;
     --buff: #f3de8aff;
     --gunmetal: #333745ff;
