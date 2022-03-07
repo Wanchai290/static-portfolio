@@ -1,0 +1,11 @@
+------------------------------ Portfolio ------------------------------
+
+> Page d'accueil
+	• Présentation
+	• Site internet statique
+
+> Contenu : fiches RetEx (Retour d'Expérience)
+	• Cahier des Charges intial
+	• Résultat livré
+	• Méthodes / outils utilisés
+	• Compétences msies en oeuvre
