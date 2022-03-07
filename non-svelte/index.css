@@ -1,0 +1,9 @@
+/* Color palette */
+/* CSS HEX */
+body {
+    --middle-blue: #87d5e8ff;
+    --buff: #f3de8aff;
+    --gunmetal: #333745ff;
+    --middle-red: #db8a74ff;
+    --thistle: #dec5e3ff;
+}
