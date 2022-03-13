@@ -1,7 +1,7 @@
 /* Header */
 header {
     flex: 5;
-    width: 100%;
+    width: inherit;
 }
 
 header > nav {
