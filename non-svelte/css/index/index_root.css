@@ -5,6 +5,9 @@
     /* Backgrounds */
     --middle-blue: #87d5e8ff;
     --buff: #f3de8aff;
+    --main-bg: rgb(91, 140, 176);
+    --main-bg-rStart:rgba(91,140,176,1);
+    --main-bg-rEnd: rgb(100, 126, 149);
     --nav-bg: RGB(78, 84, 106);
     --middle-red: #db8a74ff;
     --thistle: #dec5e3ff;

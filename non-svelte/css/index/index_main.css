@@ -3,21 +3,8 @@ main {
     display: flex;
 
     flex: 95;
-    background-color: var(--buff);
     width: inherit; /* body is 100%; */
+    background: radial-gradient(circle, var(--main-bg-rStart) 0%, var(--main-bg-rEnd) 100%);
 }
 
-    main > section#pres_container {
-        width: inherit;
-        margin: 4%;
-    }
-
-    main > section#pres_container > h1 {
-        font-size: 300%;
-    }
-
-    main > section#pres_container > p {
-        margin-left: 10%;
-        margin-top: 5%;
-    }
-    
+/* homeAnimDiv.css */

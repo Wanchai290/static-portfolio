@@ -1,0 +1,21 @@
+En une feuille de présentation .pptx
+
+
+                        Abstrait
+            >-----------------------------------<
+            |                                   |
+            |                                   |
+            |                                   |
+            |                                   |
+            |                                   |
+            |                                   |
+Antérieur   |                                   |   Postérieur
+            |                                   |
+            |                                   |
+            |                                   |
+            |                                   |
+            |                                   |
+            |                                   |
+            >-----------------------------------<
+                          Concret
+                          Matériel
