@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Exo;
+    src: url(fonts/Exo/Exo-Light.ttf);
+}
+
+main {
+    font-family: Exo !important;
+}
+
+main > section#pres_container {
+    width: inherit;
+    margin: 12%;
+    margin-top: 6%;
+}
+
+section#pres_container > h1 {
+    font-size: 260%;
+}
+
+div.proj-list {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+div.proj-list  p {
+    font-size: 200%;
+    margin-left: 10%;
+}
+
+div.proj-list div.menu-display-container {
+    display: flex;
+    flex-wrap: nowrap;
+
+    margin-top: 6%; margin-bottom: 6%; 
+    border: 3px solid rgb(85, 78, 78);
+}
+
+div.proj-list div.menu-display-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    flex: 15;
+}
+
+div.proj-list div.menu-display-container div.menu-display {
+    flex: 85;
+}
+
+div.proj-list div.menu-display-container ul li {
+    padding: 1rem;
+    border-bottom: 3px solid rgb(85, 78, 78);
+    border-right: 3px solid rgb(85, 78, 78);
+    list-style-type: none;
+    text-align: center;
+}
+
+div.proj-list div.menu-display-container ul li:first-child {
+    border-top: 0;
+}
+
+div.proj-list div.menu-display-container ul li:last-child {
+    border-bottom: 0;
+}
+
+
+div.proj-list div.menu-display-container ul li button {
+    text-decoration: none;
+    background-color: inherit;
+    border: none;
+    font-size: 170%;
+    font-family: Exo !important;
+}
