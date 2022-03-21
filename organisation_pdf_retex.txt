@@ -1,7 +1,7 @@
 En une feuille de présentation .pptx
 
 
-                        Abstrait
+                          Abstrait
             >-----------------------------------<
             |                                   |
             |                                   |
@@ -10,8 +10,8 @@ En une feuille de présentation .pptx
             |                                   |
             |                                   |
 Antérieur   |                                   |   Postérieur
-            |                                   |
-            |                                   |
+= Cahier    |                                   |
+des charges |                                   |
             |                                   |
             |                                   |
             |                                   |
@@ -19,3 +19,4 @@ Antérieur   |                                   |   Postérieur
             >-----------------------------------<
                           Concret
                           Matériel
+						  = Livrables
