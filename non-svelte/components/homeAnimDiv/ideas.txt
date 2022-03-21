@@ -1,0 +1,6 @@
+Two main ideas around my head :
+
+	Easy button - onClick() lists some items
+
+	Hard display screen : Display buttons in column on left:
+	onClick() will display on the right contentn about it
