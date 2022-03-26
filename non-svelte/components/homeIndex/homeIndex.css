@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Exo;
+    src: url(fonts/Exo/Exo-Light.ttf);
+}
+
+main {
+    font-family: Exo !important;
+}
+
+main > section#pres_container {
+    width: inherit;
+    margin: 9%;
+    margin-top: 6%;
+}
+
+section#pres_container > h1 {
+    display: flex;
+
+    font-size: 220%;
+    font-weight: bold;
+}
+
+div.proj-list {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+div.proj-list  p {
+    font-size: 200%;
+    margin-left: 8%;
+}
