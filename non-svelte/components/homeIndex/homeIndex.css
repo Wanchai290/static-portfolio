@@ -8,24 +8,53 @@ main {
 }
 
 main > section#pres_container {
+    display: flex;
+    
     width: inherit;
-    margin: 9%;
+    height: inherit;
+    margin: 6%;
     margin-top: 6%;
+
+    max-height: 60%;
 }
 
-section#pres_container > h1 {
-    display: flex;
-
+section#pres_container > div.welcome > h1 {
     font-size: 220%;
     font-weight: bold;
 }
 
-div.proj-list {
-    margin-top: 6%;
-    margin-bottom: 6%;
+div.welcome {
+    display:flex;
+    flex-direction: column;
+    
+    /*flex child properties*/
+    flex: 4;
 }
 
-div.proj-list  p {
+div.welcome p {
     font-size: 200%;
-    margin-left: 8%;
+    margin-top: 4%;
+    margin-left: 5%;
+    max-width: 50%;
+}
+
+#pres_langs_spoken {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    clip-rule:evenodd;
+    clip-path: polygon(40% 0, 100% 0, 60% 100%, 0% 100%);
+
+    flex: 2;
+    
+    height: inherit;
+}
+
+#pres_langs_spoken img {
+    max-width: 80%;
+    max-height: 50%;
+}
+
+#pres_langs_spoken img:first-child {
+    margin-left: 20%;
 }
