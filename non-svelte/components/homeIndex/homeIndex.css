@@ -5,14 +5,14 @@
 
 main {
     font-family: Exo !important;
+    justify-content: center;
 }
 
 main > section#pres_container {
     display: flex;
     
-    width: inherit;
-    height: inherit;
-    margin: 6%;
+    width: 80%;
+    height: 80%;
     margin-top: 6%;
 
     max-height: 60%;
@@ -26,6 +26,8 @@ section#pres_container > div.welcome > h1 {
 div.welcome {
     display:flex;
     flex-direction: column;
+
+    flex:1;
 }
 
 div.welcome p {
@@ -37,13 +39,21 @@ div.welcome p {
 
 div.flags {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    width: 100%;
-    height: 100%;
+    flex: 1;
 }
 
-div.flags img {
-    max-width: 50%;
-    max-height: 50%;
+div.flags div.clipper {
+    display: flex;
+    flex-direction: column;
+}
+
+div.flags div.clipper img {
+    min-width: 120px;
+    min-height: 30px;
+
+    max-width: 480px;
+    max-height: 120px;
 }
