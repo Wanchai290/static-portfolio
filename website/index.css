@@ -15,6 +15,8 @@ main {
     display: flex;
     flex-direction: column;
 
+    color: #f6fdc3;
+
     padding: 5%;
     padding-left: 10%; padding-right: 10%;
 }
@@ -34,8 +36,8 @@ main {
             }
 
             div.welcome p {
-                margin: 1em;
-                    margin-left: 2em;
+                margin: 2em;
+                    margin-left: 2.5em;
 
                 font-size: 1.1em;
             }
@@ -58,7 +60,7 @@ main {
     }
 
         section.in-menu button {
-            font-size: 200%;
+            font-size: 160%;
             border-radius: 0.3em;
             width: 10.75em;
             height: 3em;
@@ -70,6 +72,10 @@ main {
         }
 
     div.sep-line {
-        
+        width: inherit; /*inherit from main*/
+        height: 0.3em;
+        background-color:rgb(235, 208, 88);
+        border-radius: 100px;
+        border: 0;
     }
 
