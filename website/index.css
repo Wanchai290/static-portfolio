@@ -54,7 +54,7 @@ main {
 
     section.in-menu {
         margin: 5%;
-            margin-top: 20%;
+            margin-top: 10%;
         display: flex;
         justify-content: space-between;
     }
