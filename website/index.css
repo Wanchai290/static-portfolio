@@ -1,0 +1,75 @@
+/* Removing default margin & padding */
+* { margin: 0; padding: 0; }
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+
+/* Main */
+main {
+    background-color: rgb(52, 57, 102);
+    font-family: 'Exo';
+    display: flex;
+    flex-direction: column;
+
+    padding: 5%;
+    padding-left: 10%; padding-right: 10%;
+}
+
+    div.pres-container {
+        display: flex;
+    }
+
+        div.welcome {
+            font-size: 200%;
+            flex: 2;
+        }
+
+            div.welcome > h1 {
+                font-size: 1.6em;
+                font-weight: bolder;
+            }
+
+            div.welcome p {
+                margin: 1em;
+                    margin-left: 2em;
+
+                font-size: 1.1em;
+            }
+
+        div.flags {
+            flex: 1;
+            border: solid 5px red;
+        }
+        
+            div.flags img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+    section.in-menu {
+        margin: 5%;
+            margin-top: 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+        section.in-menu button {
+            font-size: 200%;
+            border-radius: 0.3em;
+            width: 10.75em;
+            height: 3em;
+            /*todo : linear gradient shadow ? 
+            linear-gradient(90deg, rgba(78,78,78,1) 0%, rgba(0,0,0,1) 91%)
+            */
+            background-color: rgb(223, 223, 223);
+            box-shadow: 15px 15px 12px black;
+        }
+
+    div.sep-line {
+        
+    }
+
