@@ -26,8 +26,8 @@ main {
     }
 
         div.welcome {
+            max-width: 60%;
             font-size: 200%;
-            flex: 2;
         }
 
             div.welcome > h1 {
@@ -43,7 +43,7 @@ main {
             }
 
         div.flags {
-            flex: 1;
+            max-width: 40%;
             border: solid 5px red;
         }
         
