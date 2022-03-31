@@ -8,8 +8,7 @@ html, body {
 
 /* Header */
 
-/* Main */
-main {
+header {
     background-color: rgb(52, 57, 102);
     font-family: 'Exo';
     display: flex;
