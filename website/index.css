@@ -77,6 +77,21 @@ header {
             box-shadow: 15px 15px 12px black;
         }
 
+        section.in-menu button:hover {
+            position: relative;
+            animation: hoverButton 0.5s;
+        }
+        @keyframes hoverButton {
+            0% {
+                right: 0;
+                bottom: 0;
+            }
+            100% {
+                right: 100px;
+                bottom: 10px;
+            }
+        }
+
     div.sep-line {
         width: inherit; /*inherit from main*/
         height: 0.3em;
@@ -85,3 +100,15 @@ header {
         border: 0;
     }
 
+
+/* Main */
+main {
+    background-color: #f6fdc3;
+    padding: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+    main h1 {
+        font-size: 1.6em;
+    }
