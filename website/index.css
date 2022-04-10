@@ -83,16 +83,6 @@ header {
         section.in-menu button:hover {
             transform: translate(-0.4em, -0.4em);
         }
-        @keyframes hoverButton {
-            0% {
-                right: 0;
-                bottom: 0;
-            }
-            100% {
-                right: 0.4em;
-                bottom: 0.4em;
-            }
-        }
 
     div.sep-line {
         width: inherit; /*inherit from main*/
