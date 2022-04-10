@@ -75,12 +75,13 @@ header {
             */
             background-color: rgb(223, 223, 223);
             box-shadow: 15px 15px 12px black;
+            transition-property: translate();
+            transition-duration: 1s;
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
         }
 
         section.in-menu button:hover {
-            position: relative;
-            animation: hoverButton 0.5s;
-            animation-fill-mode: forwards;
+            transform: translate(-0.4em, -0.4em);
         }
         @keyframes hoverButton {
             0% {
