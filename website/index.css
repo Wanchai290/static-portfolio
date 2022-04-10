@@ -103,7 +103,7 @@ main {
     }
 
         main section .heading {
-            border-bottom: solid 3px green;
+            border-bottom: ridge 3px green;
             width: max-content;
             margin-bottom: 5%;
         }
