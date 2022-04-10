@@ -114,9 +114,46 @@ main {
         main section .heading {
             border-bottom: solid 3px green;
             width: max-content;
+            margin-bottom: 5%;
         }
 
             main section .heading h1 {
                 font-size: 2.6em;
                 border-radius: 1%;
+            }
+        
+        main section article.content {
+                display: flex;
+                line-height: 2.5;
+                margin-top: 2.5%;
+                margin-bottom: 2.5%;
+        }
+
+        /* Alternates from Picture-Description to Description-Picture*/
+        main article.content:nth-of-type(2n+1) {
+            flex-direction: row-reverse;
+        }
+            main section article.content * {
+                margin: 2.5%;
+            }
+
+
+            main section article.content .img-styled-container {
+                 background-color: rgb(250, 191, 72);
+                 width: 480px;
+                 height: 360px;
+                 border-radius: 35px;
+            }
+
+            main section article.content .img-styled-container img  {
+                clip-path: polygon(20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 20%);
+                width: inherit;
+                height: inherit;
+                object-fit: fill;
+                margin: 0; 
+            }
+ 
+            main section article.content h2{
+                font-size: 160%;
+                margin-left: 3rem;
             }
