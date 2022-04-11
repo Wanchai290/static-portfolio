@@ -204,12 +204,18 @@ main {
 
             #project-display #col-2-selection {
                 width: 12%;
-
                 display: flex;
-                flex-direction: column;
-                border-right: groove 0.6rem red;
-                background-color: rgb(255, 203, 106);
+                overflow: hidden;
             }
+                
+                #project-display #col-2-selection .subset {
+                    display: flex;
+                    flex-direction: column;
+                    flex-shrink: 0;
+                    width: 100%;
+
+                    background-color: rgb(255, 203, 106);
+                }
 
                 #project-display #col-2-selection button{
                     text-decoration: none;
@@ -221,6 +227,7 @@ main {
                     text-decoration: none;
                     color: black;
                     border-bottom: groove 0.6rem red;
+                    border-right: groove 0.6rem red;
                     text-align: center;
                     flex: 1;
                 }
