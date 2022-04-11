@@ -163,3 +163,26 @@ main {
                 font-size: 180%;
                 margin-left: 3rem;
             }
+
+        #project-display {
+            display: flex;
+            border: ridge 20px grey;
+            width: 90%;
+        }
+
+            #project-display *{
+                margin: 0;
+            }
+
+            #project-display #col-1-selection{
+                display: flex;
+                flex-direction: column;
+            }
+                    #project-display #col-1-selection a{
+                        padding: 1em 1.5em 1em 1.5em;
+                        font-size: 200%;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+                    }
+
