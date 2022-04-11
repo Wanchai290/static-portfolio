@@ -35,9 +35,15 @@ header {
                 font-weight: bolder;
             }
 
+            h1 + h2 {
+                font-size: 1em;
+                margin: 1.5em;
+                margin-left: 2.5em;
+            }
+
             div.welcome p {
                 margin: 2em;
-                    margin-left: 2.5em;
+                    margin-left: 1em;
 
                 font-size: 1.1em;
             }
