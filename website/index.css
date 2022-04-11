@@ -109,14 +109,24 @@ main {
     }
 
         main section .heading {
-            border-bottom: ridge 3px green;
-            width: max-content;
             margin-bottom: 5%;
+            padding: 2em;
+                padding-top: 1em;
+                padding-right: 5em;
+                padding-bottom: 1em;
+            border-bottom: ridge 0.8em rgb(109, 211, 109);
+            border-right: ridge 0.8em rgb(109, 211, 109);
+            max-width: max-content;
+            border-bottom-right-radius: 15px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            background-color: rgb(196, 247, 196);
         }
 
             main section .heading h1 {
-                font-size: 2.6em;
-                border-radius: 1%;
+                font-size: 3.5em;
+
             }
         
         main section article.content {
