@@ -219,7 +219,7 @@ main {
                     flex-direction: column;
                     flex-shrink: 0;
                     width: 100%;
-
+                    position: relative;
                     background-color: rgb(255, 203, 106);
                 }
 
