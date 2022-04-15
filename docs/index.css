@@ -57,6 +57,17 @@ header {
             width: 100%;
         }
 
+            .selector-menu .menu-aslash {
+                background-color:rgb(91, 111, 222);
+                border: groove 5px rgb(72, 87, 167);
+                    border-right: none;
+                margin-left: 25%;
+                height: 70%;
+                width: 3%;
+                transform: skew(22deg);
+                z-index: 2;
+            }
+
             .selector-menu ul {
                 list-style: none;
                 height: 70%;
@@ -67,17 +78,22 @@ header {
                 flex-direction: column;
                 transform: skew(22deg);
                 font-style: italic;
+                text-align: center;
+                margin-left: -5px;
+                z-index: 1;
             }
 
-            .selector-menu .menu-aslash {
-                background-color:rgb(158, 126, 126);
-                border: groove 5px rgb(120, 96, 96);
-                    border-right: none;
-                margin-left: 25%;
-                height: 70%;
-                width: 3%;
-                transform: skew(22deg);
+            .menu-box {
+                height: 20%;
             }
+                    .menu-box li {
+                        background-color: burlywood;
+                        font-weight: bolder;
+                        height: 100%;
+                        line-height: 3em;
+                    }
+
+            
 
 
 /* Nice-looking section separator */
