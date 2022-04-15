@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="font_Exo.css">
+</head>
+<body>
+    <script src="project-display-screen.js" async></script>
+    <nav></nav>
+    <header>
+        <div class="myself-img-container">
+            <img src="assets/img/temp_black.jpg" alt="A picture of Thomas Wanchaï, portrait format">
+        </div>
+
+        <div class="menu-container">
+            <div class="pres-desc">
+                <h1>MENIER Thomas Wanchaï</h1>
+                <p>First year CS student currently studying at the IUT of Bordeaux-Gradginan</p>
+            </div>
+            <div class="selector-menu">
+                <div class="menu-aslash"></div>
+                <ul>
+                    <div class="menu-box"><li>About me</li></div>
+                    <div class="menu-box"><li>Carrer Path</li></div>
+                    <div class="menu-box"><li>Skills</li></div>
+                    <div class="menu-box"><li>Contact</li></div>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="master-section-separator"></div> <!--TODO: nice hefty construction junction between section-->
+    <main>
+        <section id="about">
+            <div class="heading">
+                <h1>About me</h1>
+            </div>
+            <article class="content">
+                <div class="img-styled-container">
+                    <img src="assets/img/temp_black.jpg" alt="">
+                </div>
+                <div class="desc">
+                    <h2>Who am I ?</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique quidem at provident dolorum omnis eos iste. Explicabo cupiditate officiis culpa sequi exercitationem dolor, repellendus consequatur aut deleniti? Obcaecati, eos atque.</p>
+                </div>
+            </article>
+            <article class="content">
+                <div class="img-styled-container">
+                    <img src="assets/img/temp_black.jpg" alt="">
+                </div>
+                <div class="desc">
+                    <h2>My career path so far</h2>
+                    <p>[Some kind of chronology-like path, selectable]</p>
+                </div>
+            </article>
+            <article class="content">
+                <div class="img-styled-container">
+                    <img src="assets/img/temp_black.jpg" alt="">
+                </div>
+                <div class="desc">
+                    <h2>My skills</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique quidem at provident dolorum omnis eos iste. Explicabo cupiditate officiis culpa sequi exercitationem dolor, repellendus consequatur aut deleniti? Obcaecati, eos atque.</p>
+                </div>
+            </article>
+            <!--Diagonal display | Pic  / Desc
+                                   Desc / Pic-->
+        </section>
+        <section id="my-projects">
+            <div class="heading">
+                <h1>My projects</h1>
+            </div>
+            <!--Super swag project Display here
+                See screenshot 738-->
+            <article class="content">
+                <div id="project-display">
+                    <div id="col-1-selection">
+                        <button onclick="itemA_onClick(0)">Col-1 Item-1</button>
+                        <button onclick="itemA_onClick(1)">Col-1 Item-2</button>
+                        <button onclick="itemA_onClick(2)">Col-1 Item-3</button>
+                    </div>
+                    <div id="col-2-selection">
+                        <div class="subset">
+                            <button>(A)Col-2 Item-1</button>
+                            <button>(A)Col-2 Item-2</button>
+                            <button>(A)Col-2 Item-3</button>
+                            <button>(A)Col-2 Item-4</button>
+                        </div>
+                        <div class="subset">
+                            <button>(B)Col-2 Item-1</button>
+                            <button>(B)Col-2 Item-2</button>
+                            <button>(B)Col-2 Item-3</button>
+                            <button>(B)Col-2 Item-4</button>
+                        </div>
+                        <div class="subset">
+                            <button>(C)Col-2 Item-1</button>
+                            <button>(C)Col-2 Item-2</button>
+                            <button>(C)Col-2 Item-3</button>
+                            <button>(C)Col-2 Item-4</button>
+                        </div>
+                    </div>
+                    <div id="retex-display">
+                        Superb Content ShowOff
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+    <footer></footer>
+</body>
+</html>
