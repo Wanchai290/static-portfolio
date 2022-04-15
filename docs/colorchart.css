@@ -1,0 +1,30 @@
+/* Declaring all colors used in index.html*/
+
+/*
+Legend:
+    bg      Background
+    bd(s)   Border(s)
+*/
+
+:root {
+    /* Header */
+    --header-bg: rgb(119, 168, 231);
+    --header-me-img: red;
+
+    --menu-aslash-bg: rgb(91, 111, 222);
+    --menu-aslash-bdr: rgb(72, 87, 167);
+
+    --menu-items-bg: burlywood;
+
+
+    --main-bg: #fff7b3;
+
+    --main-heading-bdr: rgb(109, 211, 109);
+    --main-heading-bg: rgb(196, 247, 196);
+
+    --about-img-corner: rgb(250, 191, 72);
+
+    --pdis-bd: grey;
+    --pdis-col-bds: red;
+    --pdis-item-bg: rgb(255, 203, 106);
+}

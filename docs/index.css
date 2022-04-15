@@ -10,7 +10,7 @@ html, body {
 /* Header */
 
 header {
-    background-color: rgb(119, 168, 231);
+    background-color: var(--header-bg);
     display: flex;
     color: #190d3b;
 }
@@ -19,7 +19,7 @@ header {
         min-width: 12%;
         min-height: 12%;
         margin: 1%;
-        border: ridge 20px red;
+        border: ridge 20px var(--header-me-img);
     }
         .myself-img-container img {
             width: 100%;
@@ -58,8 +58,8 @@ header {
         }
             
             .selector-menu .menu-aslash {
-                background-color:rgb(91, 111, 222);
-                border: groove 5px rgb(72, 87, 167);
+                background-color: var(--menu-aslash-bg);
+                border: groove 5px var(--menu-aslash-bdr);
                     border-right: none;
                 margin-left: 25%;
                 height: 70%;
@@ -90,7 +90,7 @@ header {
                 height: 20%;
             }
                     .menu-box li {
-                        background-color: burlywood;
+                        background-color: var(--menu-items-bg);
                         font-weight: bolder;
                         height: 100%;
                         line-height: 3em;
@@ -103,12 +103,12 @@ header {
 .master-section-separator {
     width: 100%;
     height: 6rem;
-    background: linear-gradient(rgb(119, 168, 231) 0% ,#5b566a 25%, #4f4d55 50%, #5b566a 75%, #fff7b3);
+    background: linear-gradient(var(--header-bg) 0% ,#5b566a 25%, #4f4d55 50%, #5b566a 75%, var(--main-bg));
 }
 
 /* Main */
 main {
-    background-color: #fff7b3;
+    background-color: var(--main-bg);
 }
 
     main section {
@@ -121,14 +121,14 @@ main {
                 padding-top: 1em;
                 padding-right: 5em;
                 padding-bottom: 1em;
-            border-bottom: ridge 0.8em rgb(109, 211, 109);
-            border-right: ridge 0.8em rgb(109, 211, 109);
+            border-bottom: ridge 0.8em var(--main-heading-bdr);
+            border-right: ridge 0.8em var(--main-heading-bdr);
             max-width: max-content;
             border-bottom-right-radius: 15px;
             border-top-left-radius: 15px;
             border-top-right-radius: 30px;
             border-bottom-left-radius: 30px;
-            background-color: rgb(196, 247, 196);
+            background-color: var(--main-heading-bg);
         }
 
             main section .heading h1 {
@@ -152,7 +152,7 @@ main {
 
 
             main section article.content .img-styled-container {
-                 background-color: rgb(250, 191, 72);
+                 background-color: var(--about-img-corner);
                  width: 480px;
                  height: 360px;
                  border-radius: 35px;
@@ -173,7 +173,7 @@ main {
 
         #project-display {
             display: flex;
-            border: ridge 20px grey;
+            border: ridge 20px var(--pdis-bd);
             width: 95%;
             min-height: 32rem;
         }
@@ -189,18 +189,18 @@ main {
 
                 display: flex;
                 flex-direction: column;
-                border-right: groove 0.6rem red;
+                border-right: groove 0.6rem var(--pdis-col-bds);
             }
                     #project-display #col-1-selection button{
                         text-decoration: none;
-                        background-color: rgb(255, 203, 106);
+                        background-color: var(--pdis-item-bg);
                         border: 0;
 
                         padding: 6%;
                         font-size: 175%;
                         text-decoration: none;
                         color: black;
-                        border-bottom: groove 0.6rem red;
+                        border-bottom: groove 0.6rem var(--pdis-col-bds);
                         text-align: center;
                         flex: 1;
                     }
@@ -221,20 +221,20 @@ main {
                     flex-shrink: 0;
                     width: 100%;
                     position: relative;
-                    background-color: rgb(255, 203, 106);
+                    background-color: var(--pdis-item-bg);
                 }
 
                 #project-display #col-2-selection button{
                     text-decoration: none;
-                    background-color: rgb(255, 203, 106);
+                    background-color: var(--pdis-item-bg);
                     border: 0;
 
                     padding: 6%;
                     font-size: 125%;
                     text-decoration: none;
                     color: black;
-                    border-bottom: groove 0.6rem red;
-                    border-right: groove 0.6rem red;
+                    border-bottom: groove 0.6rem var(--pdis-col-bds);
+                    border-right: groove 0.6rem var(--pdis-col-bds);
                     text-align: center;
                     flex: 1;
                 }
