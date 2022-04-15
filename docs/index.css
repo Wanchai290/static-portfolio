@@ -16,7 +16,6 @@ header {
     height: 90%;
 }
     .myself-img-container {
-        flex: 4;
         min-width: 12%;
         min-height: 12%;
         margin: 1%;
