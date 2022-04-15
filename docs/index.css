@@ -93,7 +93,8 @@ header {
                         background-color: var(--menu-items-bg);
                         font-weight: bolder;
                         height: 100%;
-                        line-height: 3em;
+                        line-height: 200%;
+                        font-size: 150%;
                     }
 
             
