@@ -11,10 +11,10 @@ Legend:
     --header-bg: rgb(119, 168, 231);
     --header-me-img: red;
 
-    --menu-aslash-bg: rgb(91, 111, 222);
+    --menu-aslash-bg: linear-gradient(to right, rgb(91, 111, 222), rgb(113, 131, 229));
     --menu-aslash-bdr: rgb(72, 87, 167);
 
-    --menu-items-bg: burlywood;
+    --menu-items-bg: linear-gradient(to right, rgb(113, 131, 229), rgb(151, 162, 226));
 
 
     --main-bg: #fff7b3;

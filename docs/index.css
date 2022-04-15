@@ -58,9 +58,9 @@ header {
         }
             
             .selector-menu .menu-aslash {
-                background-color: var(--menu-aslash-bg);
+                background: var(--menu-aslash-bg);
                 border: groove 5px var(--menu-aslash-bdr);
-                    border-right: none;
+                    border-right: dashed;
                 margin-left: 25%;
                 height: 70%;
                 width: 3%;
@@ -90,7 +90,7 @@ header {
                 height: 20%;
             }
                     .menu-box li {
-                        background-color: var(--menu-items-bg);
+                        background: var(--menu-items-bg);
                         font-weight: bolder;
                         height: 100%;
                         line-height: 200%;
