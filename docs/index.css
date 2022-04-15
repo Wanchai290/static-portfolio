@@ -199,7 +199,7 @@ main {
                         border: 0;
 
                         padding: 6%;
-                        font-size: 175%;
+                        font-size: 250%;
                         text-decoration: none;
                         color: black;
                         border-bottom: groove 0.6rem var(--pdis-col-bds);
@@ -224,10 +224,11 @@ main {
                     width: 100%;
                     position: relative;
                     background-color: var(--pdis-item-bg);
+                    overflow-y:scroll;
                 }
 
                 #project-display #col-2-selection button{
-                    text-decoration: none;
+                    counter-increment: button_items;
                     background-color: var(--pdis-item-bg);
                     border: 0;
 
@@ -238,7 +239,21 @@ main {
                     border-bottom: groove 0.6rem var(--pdis-col-bds);
                     border-right: groove 0.6rem var(--pdis-col-bds);
                     text-align: center;
-                    flex: 1;
+                    flex-shrink: 0;
+                }
+
+                /* Pre-defined height values for each item (todo: do it with js)*/
+
+                #col-2-selection .subset:nth-child(1) button {
+                    height: 100%;
+                }
+
+                #col-2-selection .subset:nth-child(2) button {
+                    height: 34%;
+                }
+
+                #col-2-selection .subset:nth-child(3) button {
+                    height: 34%;
                 }
 
                 #col-2-selection button:last-child {
