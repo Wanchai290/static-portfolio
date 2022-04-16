@@ -18,7 +18,7 @@ header {
     .myself-img-container {
         min-width: 12%;
         min-height: 12%;
-        margin: 1%;
+        z-index: 3;
         border: ridge 20px var(--header-me-img);
     }
         .myself-img-container img {
@@ -75,7 +75,7 @@ header {
             .selector-menu ul {
                 list-style: none;
                 height: 70%;
-                width: 45%;
+                width: 60%;
 
                 display: flex;
                 justify-content: space-between;
@@ -97,12 +97,30 @@ header {
                         height: 100%;
                         width: 80%;
                         font-size: 150%;
+                        border: solid 1px blue;
 
                         display: flex;
                         align-items: center;
                         justify-content: center;
                     }
 
+                    .menu-box:first-child li { 
+                        width: calc(100% - 0 * 17.5%);
+                        clip-path: polygon(0% 0%,  100% 0%, 93% 100%, 0% 100%);
+                    }
+                    .menu-box:nth-child(2) li{ 
+                        width: calc(100% - 1 * 17.5%);
+                        clip-path: polygon(0% 0%, 95% 0%, 86% 100%, 0% 100%);
+                    }
+                    .menu-box:nth-child(3) li {
+                        width: calc(100% - 2 * 17.5%);
+                        clip-path: polygon(0% 0%, 97% 0%, 85% 100%, 0% 100%);
+                    }
+                    .menu-box:nth-child(4) li { 
+                        width: calc(100% - 3 * 17.5%);
+                        clip-path: polygon(0% 0%, 100% 0%, 83% 100%, 0% 100%);
+                    }
+                    
                     .menu-box .menu-selected-desc {
                         display: flex;
                         align-items: center;
