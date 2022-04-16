@@ -65,7 +65,6 @@ header {
                 justify-content: space-between;
                 flex-direction: column;
                 z-index: 1;
-                clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
                 }
 
                 .menu-box {
@@ -81,28 +80,44 @@ header {
                             font-size: 2.5rem;
                             border: solid 1px blue;
 
+                            transform: skew(-30deg);
+
                             transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
                             transition-duration: 420ms;
-
+                            position: relative;
                             display: flex;
                             align-items: center;
                             justify-content: flex-end;
+
                         }
-                            .menu-box:nth-child(1) li p {
-                                margin-right: 20%;
+
+                            .menu-box li p {
+                                transform: skew(30deg);
+                                margin-right: 1.6em;
                             }
-                            .menu-box:nth-child(2) li p {
-                                margin-right: 40%;
+
+                            ul > .menu-box:nth-child(1) li {
+                                position: relative;
+                                right: calc(4 * 5%);
                             }
-                            .menu-box:nth-child(3) li p {
-                                margin-right: 55%;
+                            
+                            ul .menu-box:nth-child(2) li {
+                                position: relative;
+                                right: calc(6 * 5%);
                             }
-                            .menu-box:nth-child(4) li p {
-                                margin-right: 60%;
+
+                            ul .menu-box:nth-child(3) li {
+                                position: relative;
+                                right: calc(8 * 5%);
+                            }
+                            
+                            ul .menu-box:nth-child(4) li {
+                                position: relative;
+                                right: calc(10 * 5%);
                             }
                         
                         .menu-box li:hover {
-                            transform: translate(60px);
+                            transform: translate(60px) skew(-30deg);
                         }
                         
                         .menu-box .menu-selected-desc {
