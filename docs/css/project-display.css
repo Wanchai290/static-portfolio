@@ -1,3 +1,7 @@
+label {
+    all: unset;
+}
+
 #project-display {
     display: flex;
     border: ridge 20px var(--pdis-bd);
@@ -23,7 +27,7 @@
             cursor: pointer; 
         }
 
-            #project-display .label-aligner {
+            #project-display .label-container {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -32,23 +36,26 @@
                 flex: 1;
             }
 
-            #project-display #col-1-selection label{
-                text-decoration: none;
-                border: 0;
-
-                padding: 6%;
+            #col-1-selection p {
+                position: absolute;
                 font-size: 250%;
                 text-decoration: none;
+                z-index: 0;
+            }
+            
+            #col-1-selection label{
+                border: 0;
                 color: black;
-                text-align: center;
-                flex: 1;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
             }
 
             #project-display input[type="radio"] {
                 display: none;
             }
 
-            #col-1-selection .label-aligner:last-child {
+            #col-1-selection .label-container:last-child {
                 border-bottom: none !important; 
             }
 
@@ -61,8 +68,6 @@
         #project-display #col-2-selection .subset {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
 
             flex-shrink: 0;
             width: 100%;
@@ -99,13 +104,9 @@
             height: 100%;
         }
 
-        #col-2-selection button:last-child {
+        #col-2-selection .label-container:last-child {
             border-bottom: none !important; 
         }
-    
-    #project-display button:hover {
-        cursor: pointer;
-    }
 
     #project-display #retex-display  {
         width: 68%;
