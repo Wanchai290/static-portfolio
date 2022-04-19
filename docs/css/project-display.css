@@ -1,0 +1,97 @@
+#project-display {
+    display: flex;
+    border: ridge 20px var(--pdis-bd);
+    width: 95%;
+    min-height: 32rem;
+}
+
+    #project-display *{
+        margin: 0;
+    }
+
+    #project-display #col-1-selection{
+        width: 20%;
+
+        align-content: space-around;
+
+        display: flex;
+        flex-direction: column;
+        border-right: groove 0.6rem var(--pdis-col-bds);
+    }
+            #project-display #col-1-selection button{
+                text-decoration: none;
+                background-color: var(--pdis-item-bg);
+                border: 0;
+
+                padding: 6%;
+                font-size: 250%;
+                text-decoration: none;
+                color: black;
+                border-bottom: groove 0.6rem var(--pdis-col-bds);
+                text-align: center;
+                flex: 1;
+            }
+
+            #col-1-selection button:last-child {
+                border-bottom: none !important; 
+            }
+
+    #project-display #col-2-selection {
+        width: 12%;
+        display: flex;
+        overflow: hidden;
+    }
+        
+        #project-display #col-2-selection .subset {
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            width: 100%;
+            position: relative;
+            background-color: var(--pdis-item-bg);
+            overflow-y:scroll;
+        }
+
+        #project-display #col-2-selection button{
+            counter-increment: button_items;
+            background-color: var(--pdis-item-bg);
+            border: 0;
+
+            padding: 6%;
+            font-size: 125%;
+            text-decoration: none;
+            color: black;
+            border-bottom: groove 0.6rem var(--pdis-col-bds);
+            border-right: groove 0.6rem var(--pdis-col-bds);
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        /* Pre-defined height values for each item (todo: do it with js)*/
+
+        #col-2-selection .subset:nth-child(1) button {
+            height: 100%;
+        }
+
+        #col-2-selection .subset:nth-child(2) button {
+            height: 34%;
+        }
+
+        #col-2-selection .subset:nth-child(3) button {
+            height: 100%;
+        }
+
+        #col-2-selection button:last-child {
+            border-bottom: none !important; 
+        }
+    
+    #project-display button:hover {
+        cursor: pointer;
+    }
+
+    #project-display #retex-display  {
+        width: 68%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
