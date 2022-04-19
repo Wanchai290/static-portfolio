@@ -117,3 +117,10 @@ label {
         align-items: center;
         justify-content: center;
     }
+
+
+
+/* ----- Columns selection rules ----- */
+/*
+Unable to change an element outside of the parent selector, use JS
+*/
