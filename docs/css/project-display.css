@@ -63,7 +63,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            
+
             flex-shrink: 0;
             width: 100%;
             position: relative;
@@ -72,7 +72,6 @@
         }
 
         #project-display #col-2-selection button{
-            counter-increment: button_items;
             background-color: var(--pdis-item-bg);
             border: 0;
 
