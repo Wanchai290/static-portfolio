@@ -22,7 +22,10 @@ label {
         flex-direction: column;
         border-right: groove 0.6rem var(--pdis-col-bds);
     }   
-        
+        div[subset-empty].subset {
+            overflow-y: hidden !important;
+        }
+
         #project-display label:hover {
             cursor: pointer; 
         }
