@@ -38,7 +38,6 @@ label {
                 border-bottom: groove 0.6rem var(--pdis-col-bds);
                 background-color: var(--pdis-item-bg);
                 text-align: center;
-                flex: 1;
                 line-height: normal;
             }
 
@@ -68,15 +67,24 @@ label {
                 border-bottom: none !important; 
             }
 
+            .c1-container {
+                flex: 1;
+            }
+
+                .subset[ss-empty] .label-container {
+                    width: 100%;
+                    height: 100%;
+                }
+
             .c2-container {
-                flex: unset;
-                height: 33%;
+                height: 25%;
+                flex-shrink: 0;
                 /*add max 4 items on display, with overflow scrollbar*/
             }
 
                 .c2-container label {
-                    width: 100%;
-                    height: 100%;
+                    width: inherit;
+                    height: inherit;
                 }
 
     #project-display #col-2-selection {
