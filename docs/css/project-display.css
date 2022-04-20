@@ -39,6 +39,7 @@ label {
                 background-color: var(--pdis-item-bg);
                 text-align: center;
                 line-height: normal;
+				width: 100%;
             }
 
                 .label-container p {
