@@ -155,26 +155,44 @@ label {
     color: var(--pdis-col1-sel);
     z-index: 0;
     position: relative;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 650ms;
+    transition-property: margin-right margin-left opacity;
+    opacity: 0;
 }
     .c1-container p::before {
         content: ">";
-        margin-right: 1.2em;
+        margin-right: 1.4em;
     }
     .c1-container p::after {
         content: "<";
-        margin-left: 1.2em;
+        margin-left: 1.4em;
     }
 
 .c1-container label:hover + p::before,
 .c1-container label:hover + p::after {
-    visibility: visible;    
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition-duration: 650ms;
-
+    opacity: 1;
 }
 
 .c1-container label:hover + p::before {
+    margin-right: 0.3em;
 }
 
 .c1-container label:hover + p::after {  
+    margin-left: 0.3em;
 }
+
+
+/*disable anim if checked*/
+input:checked + .c1-container p::before,
+input:checked + .c1-container p::after {
+    opacity: 1;
+    transition: unset;
+}
+    input:checked + .c1-container p::before {
+        margin-right: 0.15em;
+    }
+
+    input:checked + .c1-container p::after {
+        margin-left: 0.15em;
+    }
