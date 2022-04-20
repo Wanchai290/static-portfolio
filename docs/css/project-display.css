@@ -71,6 +71,7 @@ label {
             .c2-container {
                 flex: unset;
                 height: 33%;
+                /*add max 4 items on display, with overflow scrollbar*/
             }
 
                 .c2-container label {
