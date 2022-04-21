@@ -6,7 +6,8 @@ label {
     display: flex;
     border: ridge 20px var(--pdis-bd);
     width: 95%;
-    min-height: 32rem;
+    min-height: 24rem;
+    max-height: 28rem;
 }
 
     #project-display *{
@@ -197,3 +198,27 @@ input:checked + .c1-container p::after {
     input:checked + .c1-container p::after {
         margin-left: 0.15em;
     }
+
+
+/* RetEx panel */
+
+.retex-subset {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+    .retex-img-container {
+        line-height: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-shrink: 0;
+    }
+
+        .retex-subset .retex-img-container img {
+            width: 100%;
+            height: 100%;
+        }
