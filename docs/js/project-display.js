@@ -10,3 +10,10 @@ function changeSubset_B() {
         c1_selected = c1_val;
     }
 }
+
+function changeRetex(colIndex) {
+    const c2Name  = "c2-items-" + colIndex;
+    const c2Items = document.querySelector('input[name='+c2Name+']:checked');
+    const c2_val  = c2Items.value;
+    
+}
