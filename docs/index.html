@@ -86,17 +86,17 @@
                 <div id="project-display">
                     <div id="col-1-selection" tabindex="0">
 
-                        <input onclick="changeSubset_B()" tabindex="1" type="radio" name="c1-items" id="c1-1" value="0">
+                        <input onclick="changeSubset_B()" tabindex="0" type="radio" name="c1-items" id="c1-1" value="0">
                         <div class="c1-container label-container">
                             <label for="c1-1"></label>
                             <p>2020</p>
                         </div> 
-                        <input onclick="changeSubset_B()" tabindex="2" type="radio" name="c1-items" id="c1-2" value="1">
+                        <input onclick="changeSubset_B()" tabindex="0" type="radio" name="c1-items" id="c1-2" value="1">
                         <div class="c1-container label-container">
                             <label for="c1-2"></label>
                             <p>2021</p>
                         </div>
-                        <input onclick="changeSubset_B()" tabindex="3" type="radio" name="c1-items" id="c1-3" value="2">
+                        <input onclick="changeSubset_B()" tabindex="0" type="radio" name="c1-items" id="c1-3" value="2">
                         <div class="c1-container label-container">
                             <label for="c1-3"></label>
                             <p>2022</p>
@@ -105,7 +105,7 @@
                     </div>
                     <div id="col-2-selection">
 
-                        <div ss-empty class="subset">
+                        <div ss-empty tabindex="-1" class="subset">
                             <input type="radio" name="c2-items-A" id="c2-A-0">
                             <div class="label-container">
                                 <p>Empty !</p>
@@ -113,7 +113,7 @@
                             </div>
                         </div>
 
-                        <div class="subset">
+                        <div tabindex="-1" class="subset">
                             <input type="radio" onclick="changeRetex('B')" name="c2-items-B" id="c2-B-0" value="0">
                             <div class="c2-container label-container">
                                 <p>Phase 1 <br>-<br> Lowatem Project</p>
@@ -146,7 +146,7 @@
                             </div>
                         </div>
 
-                        <div ss-empty class="subset">
+                        <div tabindex="-1" ss-empty class="subset">
                             <input type="radio" name="c2-items-C" id="c2-C-0">
                             <div class="label-container">
                                 <p>Empty !</p>
@@ -156,7 +156,7 @@
 
                     </div>
                     <div id="retex-display">
-                        <div class="retex-subset">
+                        <div tabindex="-1" class="retex-subset">
                             <img src="assets/retex/v2_DBCreation.png" alt="Retour d'expérience sur une création de base de données">
                             <img src="assets/retex/v2_GestionProjet.png" alt="Retour d'expérience sur un projet de création d'entreprise">
                             <img src="assets/retex/v2_Lowatem_Phase1.png" alt="Retour d'expérience sur le projet Lowatem, phase 1">
