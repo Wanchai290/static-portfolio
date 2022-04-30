@@ -12,7 +12,7 @@ function c1_onClick() {
     c1_val = document.querySelector('input[name="c1-items"]:checked').value
     if (c1_selected != c1_val) {
         changeSubset_B(c1_val);
-        //changeRetexSubsets(c1_val);
+        shiftRetexes(c1_val);
     }
 }
 
@@ -24,6 +24,12 @@ function changeSubset_B(c1_val) {
     }
     //update the selection
     c1_selected = c1_val;
+}
+
+function shiftRetexes(c1_val) {
+    for (let i=0; i<retexes_subsets.length; i++) {
+        retexes_subsets[i].style.bottom = c1_val * 100 + "%";
+    }
 }
 
 function changeRetex(colLetter) {
