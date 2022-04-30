@@ -42,14 +42,11 @@ function c2_onClick() {
 function changeRetex() {
     const impacted_rss_name = "#retex-ss-" + c1_val;
     const retexes_selector = impacted_rss_name + " img"; // Which is '#retex-ss-X img'
-    console.log(retexes_selector);
     const retexes = document.querySelectorAll(retexes_selector);
-    console.log(retexes[0])
     //TODO:
     // this kind of modification has been repeated so much in this js file
     // need to refactor it somehow, or find something more efficient
     for (let i=0; i<retexes.length; i++) {
         retexes[i].style.bottom = c2_val * 100 + "%";
     }
-    console.log("retex changed : " + c2_val);
 }
