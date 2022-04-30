@@ -86,68 +86,68 @@
                 <div id="project-display">
                     <div id="col-1-selection" tabindex="0">
 
-                        <input onclick="changeSubset()" tabindex="1" type="radio" name="c1-items" id="c1-1" value="0">
+                        <input onclick="c1_onClick()" type="radio" name="c1-items" id="c1-1" value="0">
                         <div class="c1-container label-container">
-                            <p>2020</p>
                             <label for="c1-1"></label>
+                            <p>2020</p>
                         </div> 
-                        <input onclick="changeSubset()" tabindex="2" type="radio" name="c1-items" id="c1-2" value="1">
+                        <input onclick="c1_onClick()" type="radio" name="c1-items" id="c1-2" value="1">
                         <div class="c1-container label-container">
-                            <p>2021</p>
                             <label for="c1-2"></label>
+                            <p>2021</p>
                         </div>
-                        <input onclick="changeSubset()" tabindex="3" type="radio" name="c1-items" id="c1-3" value="2">
+                        <input onclick="c1_onClick()" type="radio" name="c1-items" id="c1-3" value="2">
                         <div class="c1-container label-container">
-                            <p>2022</p>
                             <label for="c1-3"></label>
+                            <p>2022</p>
                         </div>
 
                     </div>
                     <div id="col-2-selection">
 
-                        <div ss-empty class="subset">
-                            <input type="radio" name="subset-1-items" id="c2-A-0">
+                        <div ss-empty tabindex="-1" class="subset">
+                            <input type="radio" name="c2-items-0" id="c2-A-0">
                             <div class="label-container">
                                 <p>Empty !</p>
                                 <label></label>
                             </div>
                         </div>
 
-                        <div class="subset">
-                            <input type="radio" name="c2-items" id="c2-B-0">
+                        <div tabindex="-1" class="subset">
+                            <input type="radio" onclick="c2_onClick()" name="c2-items-1" id="c2-B-0" value="0">
                             <div class="c2-container label-container">
                                 <p>Phase 1 <br>-<br> Lowatem Project</p>
                                 <label for="c2-B-0"></label>
                             </div>
-                            <input type="radio" name="c2-items" id="c2-B-1">
+                            <input type="radio" onclick="c2_onClick()" name="c2-items-1" id="c2-B-1" value="1">
                             <div class="c2-container label-container">
                                 <p>Phase 2 <br>-<br> Lowatem Project</p>
                                 <label for="c2-B-1"></label>
                             </div>
-                            <input type="radio" name="c2-items" id="c2-B-2">
+                            <input type="radio" onclick="c2_onClick()" name="c2-items-1" id="c2-B-2" value="2">
                             <div class="c2-container label-container">
                                 <p>Machine Setup</p>
                                 <label for="c2-B-2"></label>
                             </div>
-                            <input type="radio" name="c2-items" id="c2-B-3">
+                            <input type="radio" onclick="c2_onClick()" name="c2-items-1" id="c2-B-3" value="3">
                             <div class="c2-container label-container">
                                 <p>DB Creation</p>
                                 <label for="c2-B-3"></label>
                             </div>
-                            <input type="radio" name="c2-items" id="c2-B-4">
+                            <input type="radio" onclick="c2_onClick()" name="c2-items-1" id="c2-B-4" value="4">
                             <div class="c2-container label-container">
                                 <p>Project Management</p>
                                 <label for="c2-B-4"></label>
                             </div>
-                            <input type="radio" name="c2-items" id="c2-B-5">
+                            <input type="radio" onclick="c2_onClick()" name="c2-items-1" id="c2-B-5" value="5">
                             <div class="c2-container label-container">
                                 <p>Website Development</p>
                                 <label for="c2-B-5"></label>
                             </div>
                         </div>
 
-                        <div ss-empty class="subset">
-                            <input type="radio" name="subset-1-items" id="c2-C-0">
+                        <div tabindex="-1" ss-empty class="subset">
+                            <input type="radio" name="c2-items-2" id="c2-C-0">
                             <div class="label-container">
                                 <p>Empty !</p>
                                 <label></label>
@@ -156,7 +156,17 @@
 
                     </div>
                     <div id="retex-display">
-                        Superb Content ShowOff
+                        <div id="retex-ss-0" tabindex="-1" class="retex-subset">
+                            
+                        </div>
+                        <div id="retex-ss-1" tabindex="-1" class="retex-subset">
+                            <img src="assets/retex/v2_Lowatem_Phase1.png" alt="Retour d'expérience sur le projet Lowatem, phase 1">
+                            <img src="assets/retex/v2_Lowatem_Phase2.png" alt="Retour d'expérience sur le projet Lowatem, phase 2">
+                            <img src="assets/retex/v2_MachineSetup.png" alt="Retour d'expérience sur une installation de poste">
+                            <img src="assets/retex/v2_DBCreation.png" alt="Retour d'expérience sur une création de base de données">
+                            <img src="assets/retex/v2_GestionProjet.png" alt="Retour d'expérience sur un projet de création d'entreprise">
+                            <img src="assets/retex/v2_StaticWebApp.png" alt="Retour d'expérience sur le codage dd'un site web d'entreprise statique">
+                        </div>
                     </div>
                 </div>
             </article>
