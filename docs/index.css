@@ -3,9 +3,42 @@
 
 html, body {
     width: 100%;
-    height: 100%;
+    height: auto;
     font-family: 'Exo';
 }
+
+/* navigation menu */
+
+nav {
+    display: flex;
+    width: inherit;
+    height: 5rem;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+    nav a:visited, nav a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    nav > ul {
+        display: flex;
+        list-style-type: none;
+        background-color: var(--nav-bg);
+        width: inherit;
+        align-items: center;
+        font-size: x-large;
+        text-decoration: none;
+        color: inherit
+    }
+
+        nav > ul li {
+            margin-left: 2em;
+            margin-right: 2em;
+            text-align: center;
+            font-weight: bolder;
+        }
 
 /* Header */
 

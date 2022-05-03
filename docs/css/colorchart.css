@@ -7,6 +7,9 @@ Legend:
 */
 
 :root {
+    /* navigation menu */
+    --nav-bg: rgb(223, 179, 179);
+
     /* Header */
     --header-bg: rgb(119, 168, 231);
     --header-me-img: red;
