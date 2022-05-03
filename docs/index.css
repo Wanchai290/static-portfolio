@@ -13,7 +13,7 @@ header {
     background-color: var(--header-bg);
     display: flex;
     color: #190d3b;
-    height: 50rem;
+    height: 43rem;
 }
     .myself-img-container {
         min-width: 12%;
@@ -30,12 +30,11 @@ header {
         display: flex;
         flex-direction: column;
 
-        min-width: 60%;
-        max-width: 60%;
+        height: 100%;
     }
 
         .pres-desc {
-            flex: 2;
+            height: 20%; 
         }
 
             .pres-desc > h1 {
@@ -49,7 +48,7 @@ header {
             }
 
         .selector-menu {
-            flex: 8;
+            height: 80%;
 
             display: flex;
             align-items: center;
