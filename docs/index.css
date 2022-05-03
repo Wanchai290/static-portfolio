@@ -164,10 +164,13 @@ main {
         
         main section article.content {
                 display: flex;
-                line-height: 2.5;
+                line-height: 1.5;
                 margin-top: 2.5%;
                 margin-bottom: 2.5%;
         }
+            div.desc p {
+                margin-top: 3em !important; 
+            }
 
         /* Alternates from Picture-Description to Description-Picture*/
         main article.content:nth-of-type(2n+1) {
