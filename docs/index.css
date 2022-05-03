@@ -15,7 +15,7 @@ nav {
     width: inherit;
     height: 5rem;
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 5;
     background-color: var(--nav-bg);
     font-weight: bolder;
