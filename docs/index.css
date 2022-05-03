@@ -167,6 +167,7 @@ main {
                 line-height: 1.5;
                 margin-top: 2.5%;
                 margin-bottom: 2.5%;
+                justify-content: space-around;
         }
             div.desc p {
                 margin-top: 3em !important; 
