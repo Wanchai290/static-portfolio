@@ -16,10 +16,8 @@ header {
     height: 43rem;
 }
     .myself-img-container {
-        min-width: 12%;
-        min-height: 12%;
+        width: 65%;
         z-index: 3;
-        border: ridge 20px var(--header-me-img);
     }
         .myself-img-container img {
             width: 100%;
