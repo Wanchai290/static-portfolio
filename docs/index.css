@@ -88,9 +88,14 @@ header {
 
                         }
 
-                            .menu-box li p {
+                            .menu-box li a {
                                 transform: skew(30deg);
                                 margin-right: 1.6em;
+                                text-decoration-line: none;
+                            }
+                            .menu-box li a:visited {
+                                font-style: none;
+                                color: inherit;
                             }
 
                             ul > .menu-box:nth-child(1) li {
