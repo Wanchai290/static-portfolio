@@ -99,7 +99,7 @@ header {
                                         transform: skew(30deg);
                                         margin-right: 1.6em;
                                     }
-                                    
+
                             ul .menu-box:nth-child(1) a {
                                 position: relative;
                                 right: calc(4 * 5%);
@@ -158,11 +158,12 @@ main {
             border-bottom: ridge 0.8em var(--main-heading-bdr);
             border-right: ridge 0.8em var(--main-heading-bdr);
             max-width: max-content;
-            border-bottom-right-radius: 15px;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 30px;
-            border-bottom-left-radius: 30px;
             background-color: var(--main-heading-bg);
+            transform: skew(-32deg);
+        }
+
+        main section .heading * {
+            transform: skew(32deg);
         }
 
             main section .heading h1 {
