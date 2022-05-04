@@ -13,7 +13,7 @@ html, body {
 nav {
     display: flex;
     width: inherit;
-    height: 5rem;
+    height: 4rem;
     position: sticky;
     top: 0;
     z-index: 5;
@@ -105,8 +105,8 @@ nav {
             ul a:nth-child(5) li {
                 transform: unset;
                 margin: 0;
-                max-width: 55%;
-                height: 100%;
+                max-width: 40%;
+                height: 85%;
             }
 
                 a:nth-child(5) li > img {
