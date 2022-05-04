@@ -38,10 +38,10 @@ nav {
 
     nav > ul {
         display: flex;
-        flex-direction: row-reverse;
         list-style-type: none;
         width: inherit;
         align-items: center;
+        justify-content: flex-end;
         text-decoration: none;
         color: inherit
     }
