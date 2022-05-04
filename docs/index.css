@@ -20,7 +20,7 @@ nav {
     background-color: var(--nav-bg);
     border-bottom: solid 12px var(--nav-bd);
     font-weight: bolder;
-    font-size: medium;
+    font-size: large;
 }
 
     nav a {
