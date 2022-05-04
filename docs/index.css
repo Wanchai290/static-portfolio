@@ -34,6 +34,14 @@ nav {
     nav a:visited, nav a {
         color: black;
         text-decoration: none;
+        height: 100%;
+        align-self: center;
+    }
+
+    nav a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     nav > ul {
