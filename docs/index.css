@@ -256,7 +256,8 @@ main {
             margin-bottom: 5%;
             padding: 2em;
                 padding-top: 1em;
-                padding-right: 5em;
+                padding-right: 3em;
+                padding-left: 3em;
                 padding-bottom: 1em;
             border-bottom: ridge 0.8em var(--main-heading-bdr);
             border-right: ridge 0.8em var(--main-heading-bdr);
