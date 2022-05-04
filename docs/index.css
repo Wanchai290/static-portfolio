@@ -17,7 +17,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 5;
-    background-color: var(--header-bg);
+    background-color: var(--nav-bg);
     border-bottom: solid 12px var(--nav-bd);
     font-weight: bolder;
     font-size: x-large;
