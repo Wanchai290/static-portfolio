@@ -13,7 +13,7 @@ html, body {
 nav {
     display: flex;
     width: inherit;
-    height: 4rem;
+    height: 5rem;
     position: sticky;
     top: 0;
     z-index: 5;
