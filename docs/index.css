@@ -42,6 +42,15 @@ nav {
         display: flex;
         align-items: center;
         justify-content: center;
+        transform: skew(-32deg);
+    }
+
+        nav a > * {
+            transform: skew(32deg);
+        }
+
+    nav a:hover {
+        background-color: var(--nav-bt-hover);
     }
 
     nav > ul {
