@@ -139,7 +139,7 @@ header {
     }
 
         .pres-desc {
-            height: 20%; 
+            height: 30%; 
         }
 
             .pres-desc > h1 {
@@ -153,7 +153,7 @@ header {
             }
 
         .selector-menu {
-            height: 80%;
+            height: 70%;
 
             display: flex;
             align-items: center;
