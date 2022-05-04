@@ -20,7 +20,7 @@ nav {
     background-color: var(--nav-bg);
     border-bottom: solid 12px var(--nav-bd);
     font-weight: bolder;
-    font-size: x-large;
+    font-size: medium;
 }
 
     nav a {
@@ -98,10 +98,14 @@ nav {
             background-color: unset;
         }
 
+            ul a:nth-child(5) {
+                margin-left: 20px;
+            }
+
             ul a:nth-child(5) li {
                 transform: unset;
                 margin: 0;
-                max-width: 35%;
+                max-width: 55%;
                 height: 100%;
             }
 
