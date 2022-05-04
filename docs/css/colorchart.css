@@ -9,7 +9,7 @@ Legend:
 :root {
     /* navigation menu */
     --nav-bg: rgb(223, 179, 179);
-    --nav-sep: beige;
+    --nav-bd: beige;
 
     /* Header */
     --header-bg: rgb(119, 168, 231);
