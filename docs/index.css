@@ -23,6 +23,10 @@ nav {
     font-size: x-large;
 }
 
+    nav a {
+        transition: background-color 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
     nav #home-button {
         display: flex;
         text-align: center;
@@ -30,6 +34,14 @@ nav {
         justify-content: center;
         width: 12em;
     }
+
+        nav #home-button a {
+            width: 80%;
+        }
+
+            nav #home-button a > * {
+                transform: skew(32deg);
+            }
 
     nav a:visited, nav a {
         color: black;
