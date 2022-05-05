@@ -11,7 +11,3 @@ Possibility : focusable opacity:0 element checkbox that can display another acce
 
 ### Retexes imgs
 They're still broken, need to fix ASAP
-
-### Nav menu
-
-### A correct header
