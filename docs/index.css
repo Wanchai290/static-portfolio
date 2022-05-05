@@ -348,7 +348,34 @@ main {
             }
 
 
-#biog + .img-styled-container {
+#about article.content:last-child .desc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+    .subpart {
+        display: flex;
+        flex-direction: column;
+    }
+        .subpart ul {
+            list-style: none;
+
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+            .subpart ul li {
+                padding: 0.4em;
+                background: var(--career-li-bg);
+                border: solid 1px var(--career-li-bd);
+                min-width: 10em;
+                text-align: center;
+            }
+
+
+.img-styled-container {
     align-self: flex-end;
 }
 
