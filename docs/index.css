@@ -33,10 +33,12 @@ nav {
         align-items: center;
         justify-content: center;
         width: 12em;
+        font-size: x-large;
     }
 
         nav #home-button a {
             width: 80%;
+            transform: unset;
         }
 
         nav #home-button a:hover {
@@ -45,7 +47,7 @@ nav {
         }
 
             nav #home-button a > * {
-                transform: skew(32deg);
+                transform: unset;
             }
 
     nav a:visited, nav a {
@@ -192,20 +194,18 @@ header {
                             display: flex;
                             align-items: center;
                             justify-content: flex-end;
+                            text-decoration-line: none;
 
                         }
-                            .menu-box a {
-                                text-decoration-line: none;
-                            }
 
-                                .menu-box a:visited {
-                                    font-style: unset;
-                                    color: inherit;
+                            .menu-box a:visited {
+                                font-style: unset;
+                                color: inherit;
+                            }
+                                .menu-box a li p {
+                                    transform: skew(30deg);
+                                    margin-right: 1.6em;
                                 }
-                                    .menu-box a li p {
-                                        transform: skew(30deg);
-                                        margin-right: 1.6em;
-                                    }
 
                             ul .menu-box:nth-child(1) a {
                                 position: relative;
