@@ -40,4 +40,8 @@ Legend:
     /* Content */
     --career-li-bg: rgb(244, 244, 244);
     --career-li-bd: rgb(207, 207, 207);
+
+    /* Footer */
+    --footer-bg: var(--nav-bg);
+    --footer-dsc-bd: black;
 }

@@ -377,3 +377,58 @@ div#career {
     text-align: center;
     line-height: 2.5;
 }
+
+
+/* Footer */
+
+footer {
+    height: 6rem;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--footer-bg);
+}
+
+    .disclaimer {
+        border-bottom: solid 3px var(--footer-dsc-bd);
+        border-radius: 2px;
+        padding: 0.5em;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: space-between  ;
+
+        padding: 0.5em;
+        list-style: none;
+    }
+
+        footer ul a, footer ul a:visited{
+            text-decoration: unset;
+            display: flex;
+            align-items: center;
+        }
+
+        footer ul li, footer ul a li {
+            display: flex;
+            align-items: center;
+
+            color: rgb(69, 69, 243);
+            text-decoration: unset;
+            padding-right: 1em;
+            padding-left: 1em;
+            border-right: solid 2px var(--footer-dsc-bd);
+            border-radius: 1px;
+        }
+
+        footer ul a:last-child li{
+            border: unset;
+        }
+
+        footer a li img {
+            max-width: 32px;
+            max-height: 32px;
+        }
