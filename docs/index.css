@@ -348,15 +348,15 @@ main {
             }
 
 
-#career + .img-styled-container {
+#biog + .img-styled-container {
     align-self: flex-end;
 }
 
-div#career {
+div#biog {
     max-height: 100%;
 }
 
-    div#career ul {
+    div#biog ul {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -367,7 +367,7 @@ div#career {
         flex: 1;
     }
 
-        div#career ul li {
+        div#biog ul li {
             display: flex;
             justify-content: center;
             align-items: center;
