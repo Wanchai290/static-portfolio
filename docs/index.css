@@ -398,6 +398,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: var(--footer-bg);
+    color: var(--nav-txt);
 }
 
     .disclaimer {
@@ -440,3 +441,8 @@ footer {
             max-width: 32px;
             max-height: 32px;
         }
+
+h2 {
+    border-bottom: var(--main-heading-bdr) solid 3px;
+    max-width: calc(100% - 3em);
+}
