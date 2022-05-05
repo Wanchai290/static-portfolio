@@ -23,6 +23,10 @@ nav {
     font-size: large;
 }
 
+    nav * {
+        color: var(--nav-txt);
+    }
+
     nav a {
         transition: background-color 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
@@ -190,7 +194,7 @@ header {
                             height: 100%;
                             width: 100%;
                             font-size: 2.5rem;
-                            border: solid 1px blue;
+                            border: solid 1px var(--menu-items-bd);
 
                             transform: skew(-30deg);
 
@@ -248,9 +252,7 @@ header {
 .master-section-separator {
     width: 100%;
     height: 6rem;
-    background: linear-gradient(#5b566a 0%, #4f4d55 50%, #5b566a 100%);
-    border-top: var(--mssep-bd) solid 6px;
-    border-bottom: var(--mssep-bd) solid 6px;
+    background: linear-gradient(var(--nav-bg) 0%, var(--nav-bd) 50%, var(--nav-bg) 100%);
 }
 
 /* Main */
@@ -269,8 +271,8 @@ main {
                 padding-right: 3em;
                 padding-left: 3em;
                 padding-bottom: 1em;
-            border-bottom: ridge 0.8em var(--main-heading-bdr);
-            border-right: ridge 0.8em var(--main-heading-bdr);
+            border-bottom: solid 0.4em var(--main-heading-bdr);
+            border-right: solid 0.4em var(--main-heading-bdr);
             max-width: max-content;
             background-color: var(--main-heading-bg);
             transform: skew(-32deg);
@@ -422,7 +424,7 @@ footer {
             display: flex;
             align-items: center;
 
-            color: rgb(69, 69, 243);
+            color: white;
             text-decoration: unset;
             padding-right: 1em;
             padding-left: 1em;

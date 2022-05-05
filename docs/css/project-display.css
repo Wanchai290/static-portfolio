@@ -21,7 +21,7 @@ label {
 
         display: flex;
         flex-direction: column;
-        border-right: groove 0.6rem var(--pdis-col-bds);
+        border-right: solid 0.6rem var(--pdis-col-bds);
     }   
         div[subset-empty].subset {
             overflow-y: hidden !important;
@@ -36,7 +36,7 @@ label {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                border-bottom: groove 0.6rem var(--pdis-col-bds);
+                border-bottom: solid 0.6rem var(--pdis-col-bds);
                 background-color: var(--pdis-item-bg);
                 text-align: center;
                 line-height: normal;
@@ -115,8 +115,8 @@ label {
             font-size: 125%;
             text-decoration: none;
             color: black;
-            border-bottom: groove 0.6rem var(--pdis-col-bds);
-            border-right: groove 0.6rem var(--pdis-col-bds);
+            border-bottom: solid 0.6rem var(--pdis-col-bds);
+            border-right: solid 0.6rem var(--pdis-col-bds);
             text-align: center;
             flex-shrink: 0;
         }

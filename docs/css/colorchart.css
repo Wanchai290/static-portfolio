@@ -8,34 +8,30 @@ Legend:
 
 :root {
     /* navigation menu */
-    --nav-bg: rgb(223, 179, 179);
-    --nav-bd: beige;
+    --nav-bg: rgb(100, 112, 125);
+    --nav-bd: rgb(73, 82, 91);
+    --nav-txt: white;
 
-    --nav-bt-hover: beige;
+    --nav-bt-hover: rgb(156, 174, 193);
 
     /* Header */
-    --header-bg: rgb(119, 168, 231);
+    --header-bg: rgb(170, 185, 238);
     --header-me-img: red;
 
-    --menu-aslash-bg: linear-gradient(to right, rgb(91, 111, 222), rgb(113, 131, 229));
-    --menu-aslash-bdr: rgb(72, 87, 167);
+    --menu-items-bg: linear-gradient(to right, rgb(116, 184, 156), rgb(203, 246, 229));
+    --menu-items-bd: rgb(132, 157, 147);
 
-    --menu-items-bg: linear-gradient(to right, rgb(113, 131, 229), rgb(151, 162, 226));
+    --main-bg: rgb(227, 225, 201);
 
+    --main-heading-bdr: rgb(116, 184, 156);
+    --main-heading-bg: rgb(203, 246, 229);
 
-    --main-bg: #fff7b3;
+    --about-img-corner: rgb(54, 29, 46);
 
-    --main-heading-bdr: rgb(109, 211, 109);
-    --main-heading-bg: rgb(196, 247, 196);
-
-    --about-img-corner: rgb(250, 191, 72);
-
-    --pdis-bd: grey;
-    --pdis-col-bds: red;
-    --pdis-item-bg: rgb(255, 203, 106);
+    --pdis-bd: rgb(107, 107, 107);
+    --pdis-col-bds: rgb(127, 134, 158);
+    --pdis-item-bg: rgb(193, 206, 255);
     --pdis-col1-sel: navy;
-
-    --mssep-bd: rgb(71, 71, 71);
 
     /* Content */
     --career-li-bg: rgb(244, 244, 244);

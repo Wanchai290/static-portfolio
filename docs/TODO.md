@@ -1,8 +1,5 @@
 # TODO list
 
-### Color chart
-I gotta find something that looks better than the colors of the sky & everything, SOMETHING READABLE !
-
 ### Accessibility --- Retex-Display
 Menu is but it's accessibility is next to nothing.
 Find way to make it accessible
