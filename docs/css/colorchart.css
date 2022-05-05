@@ -36,4 +36,8 @@ Legend:
     --pdis-col1-sel: navy;
 
     --mssep-bd: rgb(71, 71, 71);
+
+    /* Content */
+    --career-li-bg: rgb(244, 244, 244);
+    --career-li-bd: rgb(207, 207, 207);
 }

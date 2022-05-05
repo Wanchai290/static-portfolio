@@ -310,7 +310,7 @@ main {
 
         /* Alternates from Picture-Description to Description-Picture*/
         main article.content:nth-of-type(2n+1) {
-            flex-direction: row-reverse;
+            flex-direction: row;
         }
             main section article.content * {
                 margin: 2.5%;
@@ -337,3 +337,37 @@ main {
                 margin-left: 3rem;
                 width: 100%;
             }
+
+
+#career + .img-styled-container {
+    align-self: flex-end;
+}
+
+div#career {
+    max-height: 100%;
+}
+
+    div#career ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        margin: 16px;
+        height: 100%;
+        flex: 1;
+    }
+
+        div#career ul li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 1.5%;
+            height: 3em;
+            width: 10em;
+            background-color: var(--career-li-bg);
+            border: var(--career-li-bd) solid 2px;
+            padding: 1.5em;
+            border-radius: 2em;
+        }
