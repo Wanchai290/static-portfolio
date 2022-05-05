@@ -195,7 +195,7 @@ header {
                             transform: skew(-30deg);
 
                             transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-                            transition-duration: 420ms;
+                            transition-duration: 720ms;
                             position: relative;
                             display: flex;
                             align-items: center;
