@@ -93,7 +93,7 @@ nav {
         }
 
         nav ul a:nth-child(5) li, nav ul a:nth-child(5) img {
-            width: inherit;
+            width: 175%;
             height: 100%;
         }
 
