@@ -123,12 +123,17 @@
                 <div id="project-display">
                     <div id="col-1-selection" tabindex="0">
 
-                        <input onclick="c1_onClick()" type="radio" name="c1-items" id="c1-2" value="0">
+                        <input checked onclick="c1_onClick()" type="radio" name="c1-items" id="c1-1" value="0">
+                        <div class="c1-container label-container">
+                            <label for="c1-1"></label>
+                            <p>2020</p>
+                        </div> 
+                        <input onclick="c1_onClick()" type="radio" name="c1-items" id="c1-2" value="1">
                         <div class="c1-container label-container">
                             <label for="c1-2"></label>
                             <p>2021</p>
                         </div>
-                        <input onclick="c1_onClick()" type="radio" name="c1-items" id="c1-3" value="1">
+                        <input onclick="c1_onClick()" type="radio" name="c1-items" id="c1-3" value="2">
                         <div class="c1-container label-container">
                             <label for="c1-3"></label>
                             <p>2022</p>
@@ -136,6 +141,14 @@
 
                     </div>
                     <div id="col-2-selection">
+
+                        <div ss-empty tabindex="-1" class="subset">
+                            <input type="radio" name="c2-items-0" id="c2-A-0">
+                            <div class="label-container">
+                                <p>Vide !</p>
+                                <label></label>
+                            </div>
+                        </div>
 
                         <div tabindex="-1" class="subset">
                             <input type="radio" onclick="c2_onClick()" name="c2-items-1" id="c2-B-0" value="0">
@@ -180,6 +193,9 @@
 
                     </div>
                     <div id="retex-display">
+                        <div id="retex-ss-0" tabindex="-1" class="retex-subset">
+                            
+                        </div>
                         <div id="retex-ss-1" tabindex="-1" class="retex-subset">
                             <img src="assets/retex/v2_Lowatem_Phase1.png" alt="Retour d'expérience sur le projet Lowatem, phase 1">
                             <img src="assets/retex/v2_Lowatem_Phase2.png" alt="Retour d'expérience sur le projet Lowatem, phase 2">
